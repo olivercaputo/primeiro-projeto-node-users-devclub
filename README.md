@@ -3,13 +3,15 @@
 <h3>Primeiro Projeto Node - Users - DevClub.</h3>
 <h3>First Project Node - Users - DevClub.</h3>
 
-<img align=" " height="350px" src="./assets/template-easy-shopping-01.jpg" alt="easy-shopping-interface"/>
+<br>
 
-<img height="350px" src="./assets/template-easy-shopping-02.jpg" alt="projeto-users-node"/>
+<!-- <img align=" " height="350px" src="./assets/template-easy-shopping-01.jpg" alt="easy-shopping-interface"/>
+
+<img height="350px" src="./assets/template-easy-shopping-02.jpg" alt="projeto-users-node"/> -->
 
 <h2>📝 Descrição do Projeto:</h2>
 
-<h3>Projeto Back-end de cadastro de usuários (users) utilizando Javascript, NodeJS e o Insomnia. Iniciando os estudos de Back-end com o NodeJs</h3>
+<h3>Projeto Back-end de cadastro de usuários (users) utilizando Javascript, NodeJS, Express e o Insomnia. Iniciando os estudos de Back-end com o NodeJs</h3>
 
 <h3>Com esse simples projeto, através das rotas GET, POST, PUT e DELETE é possível criar, consultar, atualizar e deletar usuários através do Insomnia.</h3>
 
@@ -20,6 +22,10 @@
 <img align="left" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 
 <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+
+<img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB">
+
+<img src="https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE">
 
 <br>
 
