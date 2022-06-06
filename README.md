@@ -28,6 +28,8 @@
 <img align="left" src="https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE">
 
 <br>
+<br>
+<br>
 
 <h2>🧰 Ajustes e melhorias:</h2>
 
