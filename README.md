@@ -7,8 +7,6 @@
 
 <img src="./img/projeto-node-users.jpg" alt="projeto-node-users"/>
 
-<br>
-
 <h2>📝 Descrição do Projeto:</h2>
 
 <h3>Projeto Back-end de cadastro de usuários (users) utilizando Javascript, NodeJS, Express e o Insomnia. Iniciando os estudos de Back-end com o NodeJs</h3>
