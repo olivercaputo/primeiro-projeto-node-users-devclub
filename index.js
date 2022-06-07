@@ -1,10 +1,10 @@
 const { request } = require('express')
-const express = require ('express')
-const uuid = require ('uuid')
-const cors = require ('cors')
+const express = require('express')
+const uuid = require('uuid')
+const cors = require('cors')
 
 
-const port = 3001
+const port = 3000
 const app = express()
 app.use(express.json())
 app.use(cors())
@@ -17,8 +17,8 @@ const checkUserId = (request, response, next) => {
 
     const index = users.findIndex(user => user.id === id)
 
-    if (index < 0){
-        return response.status(404).json({ERROR: "User not found"})
+    if (index < 0) {
+        return response.status(404).json({ ERROR: "User not found" })
     }
 
     request.userIndex = index
@@ -27,14 +27,14 @@ const checkUserId = (request, response, next) => {
 }
 
 app.get('/users', (request, response) => {
-    return response.json (users)  
+    return response.json(users)
 })
 
 app.post('/users', (request, response) => {
-    const {name, age} = request.body  
+    const { name, age } = request.body
     const user = { id: uuid.v4(), name, age }
-    users.push (user)
-    return response.status(201).json (user)  
+    users.push(user)
+    return response.status(201).json(user)
 })
 
 app.put('/users/:id', checkUserId, (request, response) => {
@@ -42,20 +42,20 @@ app.put('/users/:id', checkUserId, (request, response) => {
     const index = request.userIndex
     const id = request.userId
     const updatedUser = { id, name, age }
-    
+
     users[index] = updatedUser
-    return response.json (updatedUser)
+    return response.json(updatedUser)
 })
 
 app.delete('/users/:id', checkUserId, (request, response) => {
     const index = request.userIndex
-    
+
     users.splice(index, 1)
 
-    return response.status(204).json()  
+    return response.status(204).json()
 })
 
-app.listen (port, () => {
-    console.log (`🚀 O Servidor está Rodando na Porta ${port} 🚀`)
+app.listen(port, () => {
+    console.log(`🚀 O Servidor está Rodando na Porta ${port} 🚀`)
 })
 
