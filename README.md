@@ -5,7 +5,7 @@
 
 <br>
 
-<img height="200px" src="./img/projeto-node-users.jpg" alt="projeto-node-users"/>
+<img src="./img/projeto-node-users.jpg" alt="projeto-node-users"/>
 
 <br>
 
