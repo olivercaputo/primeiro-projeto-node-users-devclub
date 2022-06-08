@@ -1,7 +1,7 @@
 <h2>🚀 Nome do Projeto:</h2>
 
-<h3>Primeiro Projeto Node - Users - DevClub.</h3>
-<h3>First Project Node - Users - DevClub.</h3>
+<h3>Primeiro Projeto Node - Users - Back-End - DevClub.</h3>
+<h3>First Project Node - Users - Back-End - DevClub.</h3>
 
 <br>
 
